@@ -1,0 +1,71 @@
+﻿@model BinaryCity.ViewModel.ClientDetailsViewModel
+
+<h2>Client Details</h2>
+
+<p><strong>Name:</strong> @Model.Name</p>
+<p><strong>Client Code:</strong> @Model.ClientCode</p>
+
+<hr />
+
+<h3>Linked Contacts</h3>
+
+@if (!Model.LinkedContacts.Any())
+{
+    <p>No contacts found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model.LinkedContacts)
+            {
+                <tr>
+                    <td>@c.Name</td>
+                    <td>@c.Surname</td>
+                    <td>@c.Email</td>
+                    <td>
+                        <form asp-action="Unlink" method="post">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="clientId" value="@Model.ClientId" />
+                            <input type="hidden" name="contactId" value="@c.ContactId" />
+                            <button class="btn btn-sm btn-danger">Unlink</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<hr />
+
+<h3>Link Contact</h3>
+
+@if (!Model.AvailableContacts.Any())
+{
+    <p>All contacts are already linked.</p>
+}
+else
+{
+    <form asp-action="LinkContact" method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="clientId" value="@Model.ClientId" />
+
+        <select name="contactId" class="form-select" required>
+            <option value="">-- Select Contact --</option>
+            @foreach (var c in Model.AvailableContacts)
+            {
+                <option value="@c.ContactId">@c.Name @c.Surname (@c.Email)</option>
+            }
+        </select>
+
+        <button class="btn btn-primary mt-2">Link</button>
+    </form>
+}

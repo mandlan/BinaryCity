@@ -1,0 +1,27 @@
+﻿@model BinaryCity.ViewModel.HomeViewModel
+
+<div class="row text-center">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Clients</h5>
+                <p class="display-6">@Model.TotalClients</p>
+                <a asp-controller="Client" asp-action="Index" class="btn btn-outline-primary">
+                    View Clients
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Contacts</h5>
+                <p class="display-6">@Model.TotalContacts</p>
+                <a asp-controller="Contact" asp-action="Index" class="btn btn-outline-primary">
+                    View Contacts
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

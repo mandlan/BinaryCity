@@ -1,0 +1,101 @@
+﻿@model BinaryCity.ViewModel.ContactCreateViewModel
+
+@{
+    ViewData["Title"] = "Create Contact";
+    var clients = ViewData["Clients"] as List<BinaryCity.Models.Client> ?? new List<BinaryCity.Models.Client>();
+}
+
+<h1>Create Contact</h1>
+
+<form asp-action="Create" method="post" id="contact-create-form">
+    @Html.AntiForgeryToken()
+    <ul class="nav nav-tabs" id="tablist" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#general" type="button">General</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#clients" type="button">Client(s)</button>
+        </li>
+    </ul>
+
+    <div class="tab-content mt-3">
+        <div class="tab-pane fade show active" id="general">
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Surname" class="form-label"></label>
+                <input asp-for="Surname" class="form-control" />
+                <span asp-validation-for="Surname" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" id="email-input" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+                <div id="email-unique-msg" class="text-danger" style="display:none;">This email is already used.</div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="clients">
+            <div class="mb-3">
+                <label class="form-label">Link contacts to clients (optional)</label>
+                <div>
+                    @foreach (var c in clients)
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" name="selectedClientIds" value="@c.ClientId" id="client_@c.ClientId" />
+                            <label class="form-check-label" for="client_@c.ClientId">@c.Name (@c.ClientCode)</label>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary" id="create-submit">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        (function () {
+            const emailInput = document.getElementById('email-input');
+            const emailMsg = document.getElementById('email-unique-msg');
+            const submitBtn = document.getElementById('create-submit');
+
+            if (!emailInput) return;
+
+            let emailTimer;
+            emailInput.addEventListener('input', function () {
+                emailMsg.style.display = 'none';
+            });
+
+            emailInput.addEventListener('blur', function () {
+                const email = emailInput.value.trim();
+                if (!email) return;
+                clearTimeout(emailTimer);
+                emailTimer = setTimeout(function () {
+                    fetch(`/Contact/CheckEmail?email=${encodeURIComponent(email)}`)
+                        .then(r => r.json())
+                        .then(data => {
+                            if (data && data.isUnique === false) {
+                                emailMsg.style.display = 'block';
+                                submitBtn.disabled = true;
+                            } else {
+                                emailMsg.style.display = 'none';
+                                submitBtn.disabled = false;
+                            }
+                        })
+                        .catch(() => {
+                            // ignore network errors
+                        });
+                }, 250);
+            });
+        })();
+    </script>
+}

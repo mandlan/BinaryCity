@@ -1,0 +1,496 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\viewmodel\\clientlistitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\viewmodel\\clientlistitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\views\\client\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\views\\client\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\views\\client\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\viewmodel\\contactdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\viewmodel\\contactdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\viewmodel\\clientdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\viewmodel\\clientdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\viewmodel\\clientcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\viewmodel\\clientcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\viewmodel\\contactcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\viewmodel\\contactcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\models\\clientcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\models\\clientcontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\views\\contact\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\views\\contact\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\services\\clientcodegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\services\\clientcodegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BinaryCityCRM/True/SqlTable/dbo.Contacts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BinaryCityCRM/True/SqlTable/dbo.Clients.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BinaryCityCRM/True/SqlTable/dbo.ClientContacts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\migrations\\20260221162405_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\migrations\\20260221162405_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|c:\\users\\nelisa\\onedrive\\documents\\github\\binarycity\\binarycity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88E9D98C-4F2A-56FE-DF72-B264DCE3CA80}|BinaryCity\\BinaryCity.csproj|solutionrelative:binarycity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Client\\Index.cshtml",
+              "RelativeDocumentMoniker": "BinaryCity\\Views\\Client\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Client\\Index.cshtml",
+              "RelativeToolTip": "BinaryCity\\Views\\Client\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T16:32:35.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientListItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\ViewModel\\ClientListItemViewModel.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\ViewModel\\ClientListItemViewModel.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\ViewModel\\ClientListItemViewModel.cs",
+              "RelativeToolTip": "BinaryCity\\ViewModel\\ClientListItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T11:35:22.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Client\\Create.cshtml",
+              "RelativeDocumentMoniker": "BinaryCity\\Views\\Client\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Client\\Create.cshtml",
+              "RelativeToolTip": "BinaryCity\\Views\\Client\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T16:33:00.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "BinaryCity\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T15:33:27.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\ViewModel\\ContactDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\ViewModel\\ContactDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\ViewModel\\ContactDetailsViewModel.cs",
+              "RelativeToolTip": "BinaryCity\\ViewModel\\ContactDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T11:18:30.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "BinaryCity\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T15:33:54.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BinaryCity\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BinaryCity\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-22T10:24:46.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BinaryCity\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T11:59:44.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BinaryCity\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BinaryCity\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowD0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T16:50:05.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Client\\Details.cshtml",
+              "RelativeDocumentMoniker": "BinaryCity\\Views\\Client\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Client\\Details.cshtml",
+              "RelativeToolTip": "BinaryCity\\Views\\Client\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T17:13:00.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BinaryCity\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BinaryCity\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T16:50:00.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\ViewModel\\ClientDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\ViewModel\\ClientDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\ViewModel\\ClientDetailsViewModel.cs",
+              "RelativeToolTip": "BinaryCity\\ViewModel\\ClientDetailsViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T11:17:30.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClientCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\ViewModel\\ClientCreateViewModel.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\ViewModel\\ClientCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\ViewModel\\ClientCreateViewModel.cs",
+              "RelativeToolTip": "BinaryCity\\ViewModel\\ClientCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T10:43:08.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\ViewModel\\ContactCreateViewModel.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\ViewModel\\ContactCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\ViewModel\\ContactCreateViewModel.cs",
+              "RelativeToolTip": "BinaryCity\\ViewModel\\ContactCreateViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T10:31:53.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Contact\\Details.cshtml",
+              "RelativeDocumentMoniker": "BinaryCity\\Views\\Contact\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Contact\\Details.cshtml",
+              "RelativeToolTip": "BinaryCity\\Views\\Contact\\Details.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T16:43:20.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClientContact.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Models\\ClientContact.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\Models\\ClientContact.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Models\\ClientContact.cs",
+              "RelativeToolTip": "BinaryCity\\Models\\ClientContact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T15:36:43.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Models\\Contact.cs",
+              "RelativeToolTip": "BinaryCity\\Models\\Contact.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T15:30:48.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Models\\Client.cs",
+              "RelativeToolTip": "BinaryCity\\Models\\Client.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T15:31:14.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClientCodeGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Services\\ClientCodeGenerator.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\Services\\ClientCodeGenerator.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Services\\ClientCodeGenerator.cs",
+              "RelativeToolTip": "BinaryCity\\Services\\ClientCodeGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T15:42:22.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Contact\\Create.cshtml",
+              "RelativeDocumentMoniker": "BinaryCity\\Views\\Contact\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Views\\Contact\\Create.cshtml",
+              "RelativeToolTip": "BinaryCity\\Views\\Contact\\Create.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T16:34:05.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "dbo.ClientContacts.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BinaryCityCRM/True/SqlTable/dbo.ClientContacts.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BinaryCityCRM/True/SqlTable/dbo.ClientContacts.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-21T19:23:35.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "dbo.Clients.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BinaryCityCRM/True/SqlTable/dbo.Clients.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BinaryCityCRM/True/SqlTable/dbo.Clients.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-21T19:24:16.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "jquery.js",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "BinaryCity\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "BinaryCity\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-21T19:15:19.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "BinaryCity\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "BinaryCity\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-21T18:43:10.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "dbo.Contacts.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BinaryCityCRM/True/SqlTable/dbo.Contacts.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BinaryCityCRM/True/SqlTable/dbo.Contacts.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-21T19:24:25.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Program.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\Program.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Program.cs",
+              "RelativeToolTip": "BinaryCity\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T16:06:08.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "BinaryCity\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T15:40:18.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20260221162405_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Migrations\\20260221162405_InitialCreate.cs",
+              "RelativeDocumentMoniker": "BinaryCity\\Migrations\\20260221162405_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\Migrations\\20260221162405_InitialCreate.cs",
+              "RelativeToolTip": "BinaryCity\\Migrations\\20260221162405_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T16:24:05.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\appsettings.json",
+              "RelativeDocumentMoniker": "BinaryCity\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nelisa\\OneDrive\\Documents\\GitHub\\BinaryCity\\BinaryCity\\appsettings.json",
+              "RelativeToolTip": "BinaryCity\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-21T16:08:39.169Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
