@@ -168,15 +168,16 @@ public class ContactController : Controller
     }
     // AJAX endpoints for bonus points
     [HttpPost]
-    public JsonResult LinkClientAjax(int contactId, int clientId)
+    public JsonResult LinkClientAjax([FromBody] ContactLinkRequestViewModel model)
     {
-        if (!_context.Contacts.Any(c => c.ContactId == contactId) || !_context.Clients.Any(c => c.ClientId == clientId))
+        if (!_context.Contacts.Any(c => c.ContactId ==  model.ContactId) ||
+                !_context.Clients.Any(c => c.ClientId == model.ClientId))
             return Json(new { success = false, message = "Not found" });
 
-        var exists = _context.ClientContacts.Any(cc => cc.ContactId == contactId && cc.ClientId == clientId);
+        var exists = _context.ClientContacts.Any(cc => cc.ContactId == model.ContactId && cc.ClientId == model.ClientId);
         if (!exists)
         {
-            _context.ClientContacts.Add(new ClientContact { ContactId = contactId, ClientId = clientId });
+            _context.ClientContacts.Add(new ClientContact { ContactId = model.ContactId, ClientId = model.ClientId });
             _context.SaveChanges();
         }
 
@@ -184,9 +185,9 @@ public class ContactController : Controller
     }
 
     [HttpPost]
-    public JsonResult UnlinkClientAjax(int contactId, int clientId)
+    public JsonResult UnlinkClientAjax([FromBody] ContactLinkRequestViewModel model)
     {
-        var link = _context.ClientContacts.FirstOrDefault(cc => cc.ContactId == contactId && cc.ClientId == clientId);
+        var link = _context.ClientContacts.FirstOrDefault(cc => cc.ContactId == model.ContactId && cc.ClientId == model.ClientId);
         if (link != null)
         {
             _context.ClientContacts.Remove(link);
