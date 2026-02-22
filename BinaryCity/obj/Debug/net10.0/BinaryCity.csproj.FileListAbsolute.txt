@@ -223,3 +223,4 @@ C:\Users\Nelisa\OneDrive\Documents\GitHub\BinaryCity\BinaryCity\obj\Debug\net10.
 C:\Users\Nelisa\OneDrive\Documents\GitHub\BinaryCity\BinaryCity\obj\Debug\net10.0\BinaryCity.pdb
 C:\Users\Nelisa\OneDrive\Documents\GitHub\BinaryCity\BinaryCity\obj\Debug\net10.0\BinaryCity.genruntimeconfig.cache
 C:\Users\Nelisa\OneDrive\Documents\GitHub\BinaryCity\BinaryCity\obj\Debug\net10.0\ref\BinaryCity.dll
+C:\Users\Nelisa\OneDrive\Documents\GitHub\BinaryCity\BinaryCity\obj\Debug\net10.0\BinaryCity.sourcelink.json

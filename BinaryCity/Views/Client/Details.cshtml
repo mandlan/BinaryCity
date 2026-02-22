@@ -27,8 +27,7 @@ else
             @foreach (var c in Model.LinkedContacts)
             {
                 <tr>
-                    <td>@c.Name</td>
-                    <td>@c.Surname</td>
+                    <td>@c.FullName</td>
                     <td>@c.Email</td>
                     <td>
                         <form asp-action="Unlink" method="post">
@@ -62,7 +61,7 @@ else
             <option value="">-- Select Contact --</option>
             @foreach (var c in Model.AvailableContacts)
             {
-                <option value="@c.ContactId">@c.Name @c.Surname (@c.Email)</option>
+                <option value="@c.ContactId">@c.FullName @(@c.Email)</option>
             }
         </select>
 

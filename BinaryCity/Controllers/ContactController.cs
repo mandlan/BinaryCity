@@ -27,6 +27,7 @@ public class ContactController : Controller
                 ContactId = c.ContactId,
                 Name = c.Name,
                 Surname = c.Surname,
+                Email = c.Email,
                 LinkedClientsCount = c.ClientContacts.Count
 
             })

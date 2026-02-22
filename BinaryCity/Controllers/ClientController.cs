@@ -128,7 +128,7 @@ public class ClientController : Controller
                 Name = c.Name,
                 Surname = c.Surname,
                 Email = c.Email
-            }).OrderBy(c => c.Name).ToList()
+            }).OrderBy(c => c.FullName).ToList()
         };
 
         return View(vm);
