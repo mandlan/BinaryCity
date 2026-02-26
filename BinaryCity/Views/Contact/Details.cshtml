@@ -44,6 +44,30 @@
     <!-- CLIENTS TAB -->
     <div class="tab-pane fade" id="clients">
 
+        <h5>Link a client</h5>
+
+        @if (!Model.AvailableClients.Any())
+        {
+            <div class="text-muted">No client(s) available to link.</div>
+        }
+        else
+        {
+            <div class="input-group mb-3">
+                <select id="available-client-select" class="form-select">
+                    @foreach (var c in Model.AvailableClients)
+                    {
+                        <option value="@c.ClientId">@c.Name (@c.ClientCode)</option>
+                    }
+                </select>
+                <button class="btn btn-primary"
+                        id="link-client-btn"
+                        data-contact="@Model.ContactId">
+                    Link
+                </button>
+            </div>
+        }
+        <hr />
+
         <h4>Linked Clients</h4>
 
         @if (!Model.LinkedClients.Any())
@@ -81,28 +105,7 @@
 
         <hr />
 
-        <h5>Link a client</h5>
-
-        @if (!Model.AvailableClients.Any())
-        {
-            <div class="text-muted">No client(s) available to link.</div>
-        }
-        else
-        {
-            <div class="input-group mb-3">
-                <select id="available-client-select" class="form-select">
-                    @foreach (var c in Model.AvailableClients)
-                    {
-                        <option value="@c.ClientId">@c.Name (@c.ClientCode)</option>
-                    }
-                </select>
-                <button class="btn btn-primary"
-                        id="link-client-btn"
-                        data-contact="@Model.ContactId">
-                    Link
-                </button>
-            </div>
-        }
+       
     </div>
 </div>
 

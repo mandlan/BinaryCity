@@ -32,6 +32,30 @@
     <!-- CONTACTS TAB -->
     <div class="tab-pane fade" id="contacts">
 
+        <h5>Link Contact</h5>
+
+        @if (!Model.AvailableContacts.Any())
+        {
+            <div class="text-muted">All contacts are already linked.</div>
+        }
+        else
+        {
+            <form asp-action="LinkContact" method="post">
+                @Html.AntiForgeryToken()
+                <input type="hidden" name="clientId" value="@Model.ClientId" />
+
+                <select name="contactId" class="form-select" required>
+                    <option value="">-- Select Contact --</option>
+                    @foreach (var c in Model.AvailableContacts)
+                    {
+                        <option value="@c.ContactId">@c.FullName (@c.Email)</option>
+                    }
+                </select>
+
+                <button class="btn btn-primary mt-2">Link</button>
+            </form>
+        }
+        <hr />
         <h4>Linked Contacts</h4>
 
         @if (!Model.LinkedContacts.Any())
@@ -68,31 +92,9 @@
             </table>
         }
 
-        <hr />
+     
 
-        <h5>Link Contact</h5>
-
-        @if (!Model.AvailableContacts.Any())
-        {
-            <div class="text-muted">All contacts are already linked.</div>
-        }
-        else
-        {
-            <form asp-action="LinkContact" method="post">
-                @Html.AntiForgeryToken()
-                <input type="hidden" name="clientId" value="@Model.ClientId" />
-
-                <select name="contactId" class="form-select" required>
-                    <option value="">-- Select Contact --</option>
-                    @foreach (var c in Model.AvailableContacts)
-                    {
-                        <option value="@c.ContactId">@c.FullName (@c.Email)</option>
-                    }
-                </select>
-
-                <button class="btn btn-primary mt-2">Link</button>
-            </form>
-        }
+       
     </div>
 </div>
 
@@ -100,7 +102,7 @@
 
 @section Scripts {
     <script>
-        // Restore tab after reload (same trick)
+        // Restore tab after reload 
         document.addEventListener('DOMContentLoaded', function () {
             const hash = window.location.hash;
             if (hash) {

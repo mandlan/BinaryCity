@@ -1,22 +1,22 @@
 ﻿using BinaryCity.Data;
 using BinaryCity.Models;
+using BinaryCity.Services;
 using BinaryCity.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Linq;
 using System.Text.RegularExpressions;
 
 public class ClientController : Controller
 {
     private readonly AppDbContext _context;
     private readonly ILogger<ClientController> _logger;
+    private readonly IClientCodeService _clientCodeService;
 
-    public ClientController(AppDbContext context, ILogger<ClientController> logger)
+    public ClientController(AppDbContext context, ILogger<ClientController> logger, IClientCodeService clientCodeService)
     {
         _context = context;
         _logger = logger;
+        _clientCodeService = clientCodeService;
     }
 
     // LIST
@@ -64,7 +64,7 @@ public class ClientController : Controller
         var client = new Client
         {
             Name = name,
-            ClientCode = GenerateClientCode(name)
+            ClientCode = _clientCodeService.GenerateClientCode(name),
         };
 
         try
@@ -160,22 +160,8 @@ public class ClientController : Controller
         return RedirectToAction("Details", new { id = clientId });
     }
 
-    // CLIENT CODE GENERATION
-    private string GenerateClientCode(string clientName)
-    {
-        var lettersOnly = Regex.Replace(clientName, "[^A-Za-z]", "").ToUpperInvariant();
-        var alpha = (lettersOnly + "ABCDEFGHIJKLMNOPQRSTUVWXYZ").Substring(0, 3);
-
-        for (int i = 1; i <= 999; i++)
-        {
-            var candidate = $"{alpha}{i:D3}";
-            if (!_context.Clients.Any(c => c.ClientCode == candidate))
-                return candidate;
-        }
-
-        throw new InvalidOperationException("Unable to generate unique client code.");
-    }
-
+    
+   
     private bool IsAjaxRequest()
     {
         return Request.Headers["X-Requested-With"] == "XMLHttpRequest";
