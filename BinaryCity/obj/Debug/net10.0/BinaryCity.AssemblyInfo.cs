@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BinaryCity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b54037164fa86a733e9a79619265e41f8f15c69d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6476c4b5a30390dfb5d2cd0cefcededb5b8494b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("BinaryCity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BinaryCity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

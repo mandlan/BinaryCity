@@ -88,6 +88,42 @@ public class ClientController : Controller
 
         return RedirectToAction(nameof(Index));
     }
+    // DELETE
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult Delete(int id)
+    {
+        var client = _context.Clients
+            .Include(c => c.ClientContacts) // include related contacts if cascade delete isn’t configured
+            .FirstOrDefault(c => c.ClientId == id);
+
+        if (client == null)
+        {
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+                return NotFound(new { success = false, message = "Client not found" });
+
+            return NotFound();
+        }
+
+        try
+        {
+            _context.Clients.Remove(client);
+            _context.SaveChanges();
+        }
+        catch (Exception ex)
+        {
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+                return StatusCode(500, new { success = false, message = "Error deleting client" });
+
+            ModelState.AddModelError("", "An unexpected error occurred while deleting.");
+            return View(client);
+        }
+
+        if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            return Json(new { success = true, redirectUrl = Url.Action("Index", "Client") });
+
+        return RedirectToAction("Index");
+    }
 
     // DETAILS
     public IActionResult Details(int id)

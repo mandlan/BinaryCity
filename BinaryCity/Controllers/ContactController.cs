@@ -88,6 +88,41 @@ public class ContactController : Controller
         return RedirectToAction(nameof(Index));
     }
 
+    // Delete contact
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult Delete(int id)
+    {
+        var contact = _context.Contacts.FirstOrDefault(c => c.ContactId == id);
+
+        if (contact == null)
+        {
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+                return NotFound(new { success = false, message = "Contact not found" });
+
+            return NotFound();
+        }
+
+        try
+        {
+            _context.Contacts.Remove(contact);
+            _context.SaveChanges();
+        }
+        catch (Exception ex)
+        {
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+                return StatusCode(500, new { success = false, message = "Error deleting contact" });
+
+            ModelState.AddModelError("", "An unexpected error occurred while deleting.");
+            return View(contact);
+        }
+
+        if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            return Json(new { success = true, redirectUrl = Url.Action("Index", "Contact") });
+
+        return RedirectToAction("Index");
+    }
+
     // Existing non-AJAX link/unlink (kept for progressive enhancement)
     [HttpPost]
     public IActionResult LinkClient(int contactId, int clientId)

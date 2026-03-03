@@ -7,6 +7,7 @@ namespace BinaryCity.Models
         public int ClientId { get; set; }
         [Required]
         public string Name { get; set; }
+        [MaxLength(6)]
         public string ClientCode { get; set; }
         public ICollection<ClientContact> ClientContacts { get; set; }
 

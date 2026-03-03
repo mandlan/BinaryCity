@@ -3,6 +3,7 @@
 <h1>Clients</h1>
 
 <a class="btn btn-primary mb-3" asp-action="Create">Create New Client</a>
+@Html.AntiForgeryToken()
 
 @if (!Model.Any())
 {
@@ -28,6 +29,12 @@ else
                     <td class="text-center">@c.LinkedContactsCount</td>
                     <td>
                         <a asp-action="Details" asp-route-id="@c.ClientId">Details</a>
+                    </td>
+                    <td>
+                        <button class="btn btn-danger btn-sm delete-client" data-id="@c.ClientId">
+                            Delete
+                        </button>
+
                     </td>
                 </tr>
             }

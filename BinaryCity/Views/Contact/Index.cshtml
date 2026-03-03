@@ -3,6 +3,7 @@
 <h1>Contacts</h1>
 
 <a class="btn btn-primary mb-3" asp-action="Create">Create New Contact</a>
+@Html.AntiForgeryToken()
 
 @if (!Model.Any())
 {
@@ -31,6 +32,12 @@ else
                     <td>
                         <a asp-action="Details" asp-route-id="@c.ContactId">Details</a>
                     </td>
+                    <td>
+                    <button class="btn btn-danger btn-sm delete-contact" data-id="@c.ContactId">
+                        Delete
+                    </button>
+                    </td>
+
                 </tr>
             }
         </tbody>
